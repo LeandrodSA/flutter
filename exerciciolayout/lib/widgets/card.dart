@@ -38,7 +38,7 @@ class CardImg extends StatelessWidget {
                     Image.asset(img[i]),
                     Divider(),
                     TextButton(
-                      child: const Text("Deletar"),
+                      child: const Text("Next -->"),
                       onPressed: () {
                         Navigator.push(
                           context,
